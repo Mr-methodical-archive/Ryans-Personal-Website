@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     let left = document.querySelector('#left')
     left.addEventListener('click', function(){
-        location.href = "/trivia/index.html";
+        location.href = "trivia/index.html";
     });
     left.addEventListener('mouseover', function() {
         document.querySelector('#Pitt').style.transformOrigin="bottom center";
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     let right = document.querySelector('#right')
     right.addEventListener('click', function(){
-        location.href = "/hockey/stats.html";
+        location.href = "hockey/stats.html";
     });
 
     let closedEyes = false;
